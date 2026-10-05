@@ -24,9 +24,3 @@ SealFinder is a lightweight and interactive Python tool designed to retrieve and
 
    ```bash
    python sf.py
-
-**Enter any TikTok username when prompted, and SealFinder will instantly generate the full analysis report!**
-
-## ⚠️ Disclaimer
-
-**This tool is for educational and informational purposes only. It uses publicly available data and math algorithms.**
