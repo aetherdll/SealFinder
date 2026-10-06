@@ -204,7 +204,7 @@ def scan_global_footprint(username):
 def main():
   while True:
     print(CYAN + "=====================================================" + RESET)
-    print(CYAN + BOLD + "             SealFinder v1.3" + RESET)
+    print(CYAN + BOLD + "             SealFinder v1.2" + RESET)
     print(CYAN + "=====================================================" + RESET)
     print(f" {YELLOW}[1]{RESET} TikTok Intelligence Analysis")
     print(f" {YELLOW}[2]{RESET} Cross-Platform Username Scan")
