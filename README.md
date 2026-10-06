@@ -1,26 +1,67 @@
-# 🦭 SealFinder v1.0
+# 🦭 SealFinder
 
-SealFinder is a lightweight and interactive Python tool designed to retrieve and analyze metadata (creation date, account age, and region) for TikTok accounts using Snowflake ID parsing.
+**> A lightweight, cross-platform OSINT and digital footprint reconnaissance tool designed for fast intelligence gathering.**
+---
+## 🚀 Quick Download & Usage
+**Depending on your operating system, choose the preferred method below:**
 
-## 🚀 Features
+**For Windows Users (Recommended)
+If you are on Windows, you don't need to install Python or any dependencies.**
 
-* **Automatic ID Retrieval:** Automatically fetches the numeric TikTok ID from public profile pages.
-* **Snowflake ID Decoding:** Extracts exact creation timestamps mathematically from 64-bit TikTok IDs (`id >> 32`).
-* **Precise Account Age Calculation:** Calculates the exact age of the account down to days, months, and years.
-* **Clean CLI Interface:** Simple, fast, and user-friendly English terminal interface with DD/MM/YYYY date formatting.
+**Go to the Releases section of this repository.**
 
-## 📥 Installation
+**Download the pre-compiled standalone executable (SealFinder_OSINT_<VERSION_NUMBER>.exe).**
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/aetherdll/SealFinder.git](https://github.com/aetherdll/SealFinder.git)
-   cd SealFinder
+**Double-click and run!**
 
-2. Install Depencies:
-   ```bash
-   pip install -r requirements.txt
+## For Linux / macOS / Source Code Users:
 
-## 💻 Usage
+**If you prefer running the Python source code directly:**
 
-   ```bash
-   python sf.py
+**Clone or download the repository.**
+
+**Make sure you have Python 3.x installed.**
+
+**Install the required dependencies:**
+
+pip install requests
+
+**Run the tool:**
+
+python sf.py
+---
+## 🛠️ Features
+
+**TikTok Intelligence & Analysis:**
+
+**Extracts numeric user IDs directly from profile structures.**
+
+**Decodes TikTok Snowflake IDs to determine precise account creation timestamps and total account age.**
+
+**Scrapes public profile metrics (Followers, Following, Total Likes, Video Count).**
+---
+**Cross-Platform Username Scanner:**
+
+**Checks target username availability across major global platforms simultaneously (Instagram, Twitter/X, GitHub, Reddit, Pinterest, Telegram, Steam, Twitch).**
+
+**Terminal Aesthetic:**
+
+**Clean, color-coded ANSI terminal interface optimized for multi-platform environments.**
+
+## 📦 Building from Source (For Developers):
+
+**If you want to compile the Python script into a standalone executable yourself using PyInstaller:**
+---
+**Install PyInstaller:**
+
+pip install pyinstaller
+
+**Build the executable:**
+
+pyinstaller --onefile --console --name=intel sf.py
+
+**Find your compiled application inside the dist/ directory.**
+---
+# ⚠️ Disclaimer
+
+**SealFinder is developed for educational and authorized reconnaissance purposes only. The author is not responsible for any misuse or illegal activities conducted with this tool.**
